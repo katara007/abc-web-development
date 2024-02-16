@@ -1,0 +1,269 @@
+/* starting of header */
+*{
+	padding:0;
+	margin:0;
+}
+#container{
+	background:#FCF3CF;
+}
+#header{
+	height:100px;
+	background:rgba(0,0,0,0.7);
+	
+}
+#logo{
+	height:100%;
+	float:left;
+	padding-left:20px;
+	padding-top:20px;
+	box-sizing:border-box;
+	
+	
+}
+#logo img{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	
+	
+	
+}
+#navbar {
+	float:right;
+	box-sizing:border-box;
+	padding-right:300px;
+	padding-top:30px;	
+}
+#navbar ul li{
+	display:inline-block;
+	padding:10px 15px;
+}
+#navbar ul li:hover{
+	background:rgba(0,255,0,0.7);
+}
+#navbar ul li a{
+	color:rgba(255,255,255,1);
+	text-decoration:none;
+}
+/* ending of header */
+
+/* starting of gallary */
+#gallary{
+	height:500px;
+	width:100%;
+}
+#gallary img{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+#gallary h2{
+	position:absolute;
+	z-index:1;
+	top:15px;
+	left:10%;
+	color:#DFFF00;
+	font-size:50px;
+	text-shadow:2px 2px 2px white;
+	cursor:pointer;
+}
+#gallary button{
+	position:absolute;
+	z-index:1;
+	top:30px;
+	left:80%;
+	height:40px;
+	width:150px;
+	border-radius:10px;
+	font-size:20px;
+	background:#DE3163;
+}
+#gallary button:hover{
+	background:rgba(0,255,0,0.7);
+	cursor:pointer;
+	top:29;
+	left:79.9%;
+	box-shadow:5px 5px 5px gray;
+	
+}
+/* ending of gallary */
+
+/* starting of course-title, staff-title */
+#course-title, #staff-title, #enquiry-title{
+	height:100px;
+	width:100%;
+}
+#course-title h3, #staff-title h3, #enquiry-title h3{
+	text-align:center;
+	font-size:60px;
+	color:red;
+	padding-top:18px;
+}
+/* ending of course-title, staff-title */
+
+/* starting of course details */
+#course-details{
+	height:250px;
+	width:100%;
+}
+.course{
+	height:230px;
+	width:200px;
+	float:left;
+	margin-left:60px;
+	background:#00FF00;
+	box-shadow:10px 10px 10px #C0C0C0;
+	border-radius:10px;
+}
+.course:hover{
+	border:1px solid black;
+	cursor:pointer;
+	box-shadow:10px 10px 10px orange;
+}
+.course img{
+	height:85%;
+	width:100%;
+	padding-bottom:2px;
+	border-radius:10px;
+}
+.course h4{
+	margin-bottom:12px;
+	text-align:center;
+	padding-top:5px;
+	color:#000080;
+}
+	
+
+/* ending of course details */
+
+/* starting of staff details */
+#staff-details{
+	width:100%;
+	height:350px;
+}
+.staff{
+	height:340px;
+	width:250px;
+	float:left;
+	margin-left:70px;
+	box-sizing:border-box;
+	box-shadow:10px 10px 10px #C0C0C0;
+	border-radius:50px 25px;
+	background:white;
+}
+.staff:hover{
+	border:1px solid black;
+	cursor:pointer;
+	box-shadow:10px 10px 10px orange;
+}
+.staff img{
+	width:100%;
+	height:60%;
+	border-radius:50px 25px;	
+}
+.staff h4{
+	padding-top:20px;
+	text-align:center;
+	color:blue;
+}
+.staff p{
+	margin-left:5px;
+	padding-top:10px;
+}
+
+/* ending of staff details */
+
+/* starting of enquiry */
+#enquiry{
+	height:400px;
+	width:100%;
+	box-sizing:border-box;
+}
+#enquiry-form{
+	height:300px;
+	width:400px;
+	position:absolute;
+	z-index:1;
+	margin-left:40%;
+	margin-top:50px;
+	padding-top:50px;
+	padding-left:50px;
+	background:rgba(255,255,255,0.7);
+	border-radius:20px;
+	box-shadow:10px 10px 10px orange;
+	box-sizing:border-box;
+}
+#enquiry img{
+	height:100%;
+	width:100%;
+	position:relative:
+}
+#enquiry-form table input,textarea{
+	border-radius:5px;
+}
+#enquiry-form table #btn{
+	height:30px;
+	width:100px;
+	border-radius:10px;
+	font-size:20px;
+	background:yellow;
+}
+#enquiry-form table #btn:hover{
+	background:rgba(100,200,100,1);
+	cursor:pointer;
+	left:49.9%;
+	top:399px;
+	box-shadow:5px 5px 5px gray; 
+}
+#enquiry-form table .box{
+	height:30px;
+	width:200px;
+}
+#enquiry-form table textarea
+{
+	width:200px;
+}	
+/* ending of enquiry */
+
+/* starting of footer */
+
+#footer{
+	height:300px;
+	width:100%;
+	background:rgba(0,0,0,2.5);
+}
+#box1,#box2,#box3{
+	float:left;
+	margin-left:200px;
+	margin-top:70px;
+}
+#footer #box3 table,#box2 a,#box1 ul li a{
+	color:white;
+}
+#footer #box3 table{
+	height:200px;
+	width:200px;
+}
+#footer #box3 table caption{
+	color:yellow;
+}
+#footer #box1 ul{
+	background:rgba(0,0,0,0.7);
+}
+#footer #box1 ul li{
+	display:block;
+	padding:10px 15px;
+}
+#footer #box1 ul li:hover{
+	background:rgba(0,255,0,0.7);
+}
+#footer #box1 ul li a{
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+#footer #box2 a{
+	text-decoration:none;
+	font-size:18px;
+}
+
+/* ending of footer */
